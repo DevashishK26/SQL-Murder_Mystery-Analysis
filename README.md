@@ -1,3 +1,6 @@
+![SQL Murder Mystery](assets/SQL_Murder_Mystery.png)
+
+
 # 🕵️ SQL Murder Mystery – Data Investigation Case Study
 
 ## 📌 Overview
@@ -183,3 +186,6 @@ Data Engineer | Generative AI Enthusiast
 This project highlights how structured querying combined with logical reasoning can solve complex problems.
 
 It's not just about writing SQL — it's about **thinking like an investigator with data as your evidence**.
+
+
+
