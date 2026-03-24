@@ -50,11 +50,11 @@ where person_id in (14887,16371)
 --Idntifying all suspects and Getting the name of killer based on above info
 
 select p.name,p.id from get_fit_now_member gfm
-left join get_fit_now_check_in gfc 
+inner join get_fit_now_check_in gfc 
 	on gfm.id = gfc.membership_id
-left join person p
+inner join person p
 	on p.id = gfm.person_id
-left join drivers_license dl
+inner join drivers_license dl
 	on dl.id = p.license_id
 where gfm.id like '%48Z%' and gfm.membership_status = 'gold'
 	and gfc.check_in_date=20180109
